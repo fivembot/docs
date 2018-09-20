@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="A tutorial, how to set up the mute command correctly">
+        <meta name="description" content="Um tutorial, como configurar o comando mudo corretamente">
       
       
         <link rel="canonical" href="https://fivembot.github.io/docs/Tutorials/How to set-up the mute-command/">
@@ -37,12 +37,12 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../FiveMBot.png">
+      <link rel="shortcut icon" href="https://raw.githubusercontent.com/fivembot/docs/master/FiveMBot.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
     
     
       
-        <title>Set up the mute Command</title>
+        <title>Configurar o comando mudo</title>
       
     
     
@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../../#set-up-the-mute-command" tabindex="1" class="md-skip">
+      <a href="../../#configurar-o-mute-comando" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -113,7 +113,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://fivembot.github.io/docs" title="FiveMBot Documentation" class="md-header-nav__button md-logo">
+        <a href="https://fivembot.github.io/docs" title="Documentação FiveMBot" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -127,10 +127,10 @@
           
             
               <span class="md-header-nav__topic">
-                FiveMBot Documentation
+                Documentação FiveMBot
               </span>
               <span class="md-header-nav__topic">
-                Set up the mute Command
+                Configurar o comando mudo
               </span>
             
           
@@ -209,12 +209,12 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="https://fivembot.github.io/docs" title="FiveMBot Documentation" class="md-nav__button md-logo">
+    <a href="https://fivembot.github.io/docs" title="Documentação FiveMBot" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
     </a>
-    FiveMBot Documentation
+    Documentação FiveMBot
   </label>
   
     <div class="md-nav__source">
@@ -808,8 +808,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../Create a playlist/" title="Create a playlist" class="md-nav__link">
-      Create a playlist
+    <a href="../Create a playlist/" title="Crie uma lista de reprodução" class="md-nav__link">
+      Crie uma lista de reprodução
     </a>
   </li>
 
@@ -828,8 +828,8 @@
       
     
     
-    <a href="./" title="Set up the mute Command" class="md-nav__link md-nav__link--active">
-      Set up the mute Command
+    <a href="./" title="Configurar o comando mudo" class="md-nav__link md-nav__link--active">
+      Configurar o comando mudo
     </a>
     
   </li>
@@ -906,19 +906,19 @@
                   <a href="https://github.com/fivembot/edit/master/docs/Tutorials/How to set-up the mute-command.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="set-up-the-mute-command">Set up the <code>?mute</code> command<a class="headerlink" href="#set-up-the-mute-command" title="Permanent link">&para;</a></h1>
-<p>In this tutorial I'll show you, how to set up the <code>?mute</code> command, that it works correctly.</p>
-<p>It's really easy, so <strong>lets go</strong>. :D</p>
-<p>First, you have to create a new role, or choose a role that already exists.
-The role <strong>shouldn't</strong> have the following permission:</p>
+                <h1 id="configurar-o-mute-comando">Configurar o <code>?mute</code> comando<a class="headerlink" href="#configurar-o-mute-comando" title="Permanent link">&para;</a></h1>
+<p>Neste tutorial eu vou te mostrar, como configurar o <code>?mute</code> comando, que funciona corretamente.</p>
+<p>É muito fácil, então <strong>vamos</strong>. :D</p>
+<p>Primeiro, você precisa criar uma nova função ou escolher uma função que já exista.
+A função <strong>não deveria</strong> tem a seguinte permissão:</p>
 <p><img alt="Image Permisson" src="https://i.imgur.com/Nr0TfQk.png" /></p>
-<p>Also, the position of the "Mute" role <strong>should</strong> be <strong>above</strong> the muteable roles, to make shure that the "Mute" role can overwrite the text-permissions of the roles, which are below the "Mute" role.</p>
+<p>Além disso, a posição do papel "Mute" <strong>devemos</strong> estar <strong>acima</strong> os papéis mutáveis, para garantir que a função "Mute" pode sobrescrever as permissões de texto das funções, que estão abaixo da função "Mute".</p>
 <p><img alt="Image Role-Postition" src="https://i.imgur.com/yBvWJ5N.png" /></p>
-<p>After that, define the "Mute" role for FiveMBot with <code>?muterole</code> <em>rolename</em></p>
+<p>Depois disso, defina a função "Mute" para FiveMBot com <code>?muterole</code> <em>rolename</em></p>
 <p><img alt="Image Muterole" src="https://i.imgur.com/dJ0wFZS.png" /></p>
-<p><strong>That's it.</strong> Now you can use <code>?mute</code> <em>@User time{d, h, m, s} {reason}</em></p>
+<p><strong>É isso aí.</strong> Agora você pode usar <code>?mute</code> <em>@User time{d, h, m, s} {reason}</em></p>
 <p><img alt="Image Mute" src="https://i.imgur.com/mHJdqrR.png" /></p>
-<p><em>And now:</em> Take away the troublemakers. :)</p>
+<p><em>E agora:</em> Tire os encrenqueiros. :)</p>
                 
                   
                 
@@ -939,7 +939,7 @@ The role <strong>shouldn't</strong> have the following permission:</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../Create a playlist/" title="Create a playlist" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../Create a playlist/" title="Crie uma lista de reprodução" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -948,7 +948,7 @@ The role <strong>shouldn't</strong> have the following permission:</p>
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Create a playlist
+                Crie uma lista de reprodução
               </span>
             </div>
           </a>
